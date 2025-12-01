@@ -1,0 +1,31 @@
+Requerimientos Funcionales
+  RF1. Registro de solicitudes de soporte
+  El sistema debe permitir que los usuarios registren nuevas solicitudes mediante un formulario con campos obligatorios como: Dispositivo/aplicación afectado, que sucedió cuando se produjo el problema, descripción del poblema y pasos para reproducir el poblema
+
+  RF2. Consulta y visualización del estado de solicitudes
+  El sistema debe permitir que cada usuario consulte el estado y la información detallada de sus solicitudes registradas.
+  
+  RF3. Asignación y gestión de solicitudes por parte de técnicos
+  El sistema debe permitir asignar solicitudes a técnicos específicos y mostrarles un panel donde puedan ver sus solicitudes pendientes, en proceso y finalizadas.
+  
+  RF4. Gestión de prioridades
+  El sistema debe permitir que el administrador del CAT establezca o modifique la prioridad de una solicitud registrada.
+  
+  RF5. Autenticación y control de accesos por rol
+  El sistema debe permitir el inicio de sesión y aplicar restricciones basadas en el rol del usuario: estudiante, técnico o administrador.
+
+Requerimientos No Funcionales
+  RNF1. Rendimiento
+  Las páginas y paneles principales del sistema deben cargar en un tiempo menor a 3 segundos bajo condiciones normales de carga.
+  
+  RNF2. Usabilidad
+  La interfaz debe ser intuitiva, clara y accesible, permitiendo que un usuario sin experiencia técnica pueda navegar y realizar acciones básicas sin capacitación adicional.
+  
+  RNF3. Seguridad
+  El sistema debe cifrar las contraseñas utilizando estándares modernos (por ejemplo, bcrypt o Argon2) y garantizar que solo usuarios autorizados accedan a datos sensibles.
+  
+  RNF4. Disponibilidad
+  El sistema debe estar disponible al menos el 95% del tiempo durante el horario laboral establecido por la universidad.
+  
+  RNF5. Escalabilidad
+  El sistema debe soportar incrementos del 50% en la cantidad de solicitudes y usuarios sin afectar significativamente su rendimiento o tiempos de respuesta.
